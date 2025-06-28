@@ -1,0 +1,42 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: rgb(6, 59, 59);
+}
+
+.cartContainer {
+  width: 50%;
+  box-shadow: 4px 4px 8px gray;
+  text-align: center;
+  background-color: antiquewhite;
+  margin: auto;
+  display: flow-root;
+}
+
+#productContainer {
+  display: flex;
+  justify-content: space-around;
+  gap: 15px;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.productBox {
+  box-shadow: 4px 4px 8px gray;
+  padding: 10px;
+  height: 300px;
+  width: 250px;
+}
+
+.cart {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
